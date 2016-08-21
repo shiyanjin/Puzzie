@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>拼图游戏</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wapper">
+        <!--  游戏区start  -->
+        <div id="box">
+        </div>
+        <!--  游戏区end  -->
+        <!---  游戏暂停或重来的按钮区域  -->
+        <div class="control">
+            <span>总用时：<spap id="time">00:00:00</spap></span>
+            <button class="button" id="start" onclick="timer()">开始计时</button><br/>
+            <button class="button" id="stop" onclick="stop()">暂停</button><br/>
+            <button class="button" id="goon" onclick="goOn()">继续</button><br/>
+            <button class="button" id="restart" onclick="reStart()">重来</button><br/>
+        </div>
+        <!---  游戏暂停或重来的按钮区域  -->
+    </div>
+    <!--  游戏规则区start  -->
+    <div class="explain">
+        <div id="title"><h2>游戏<br/>规则</h2></div>
+        <div id="rule">
+            <ol>
+                <li>当各个图片按1-8的顺序依次排列在前8个小方框中时，拼图完成</li>
+                <li>点击“开始计时”按钮，游戏开始计时，拼图完成结束</li>
+                <li>点击“暂停”按钮可以暂停计时，“继续”按钮可以接着前面的时间继续计时</li>
+                <li>点击“重来”按钮可重新开始游戏，同时计时归0，点击点击“开始计时”计时</li><br/>
+                <p><b>注：</b>如果您不想在游戏时计时，可不点击“开始计时”</p>
+            </ol>
+        </div>
+    </div>
+    <!--  游戏规则区end  -->
+    <script src="js/random.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/start.js"></script>
+    <script src="js/isFinished.js"></script>
+    <script src="js/getPuzzie.js"></script>
+    <script src="js/move.js"></script>
+    <script src="js/reStart.js"></script>
+    <script src="js/timer.js"></script>
+    <script src="js/stopOrGoOn.js"></script>
+</body>
+</html>

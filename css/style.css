@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    width:100%;
+    height: 100%;
+    background: -webkit-linear-gradient(#eefff6, #4d8689);
+    background: linear-gradient(#eefff6, #4d8689);
+    background: -o-linear-gradient(#eefff6, #4d8689);
+}
+/*游戏区start*/
+.wapper{
+    width:500px;
+    height:300px;
+    margin:10px auto;
+    border:1px solid #dddddd;
+}
+#box{
+    width:300px;
+    height:300px;
+    position:relative;
+    background-color: rgba(225, 208, 37, 0.74);
+    float:left;
+}
+/*.fixed{
+    width:98px;
+    height:98px;
+    float:left;
+    border:1px solid #dddddd;
+    position: absolute;
+}*/
+.move{
+    width:98px;
+    height: 98px;
+    float:left;
+    border:1px solid #afafaf;
+    position: absolute;
+    background-color: rgba(0, 201, 201, 0.85);
+}
+#move0{
+    background-color: rgba(225, 208, 37, 0.74);
+}
+.number{
+    color:#ffffff;
+    font-size: 40px;
+    text-align:center;
+    padding-top:20px;
+}
+/*游戏区end*/
+
+/*按钮区start*/
+.control{
+    width:198px;
+    height:300px;
+    border:1px solid #afafaf;
+    background-color: #dddddd;
+    position: relative;
+    float:left;
+}
+span{
+    font-size: 20px;
+    color: #747474;
+}
+.button{
+    width:100px;
+    height:40px;
+    font-size: 20px;
+    background-color: #7FFFD4;
+    position: relative;
+    top:10px;
+    left:65px;
+    border-radius: 5px;
+    box-shadow: 5px;
+    margin-bottom:10px;
+}
+/*按钮区end*/
+/*游戏规则区start*/
+.explain{
+    width:560px;
+    height:250px;
+    margin:10px auto;
+}
+.explain #title{
+    width:100px;
+    height:100px;
+    float: left;
+    background-color: #7FFFD4;
+    border:1px solid #4d8689;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 40px;
+}
+.explain #title h2{
+    color: blueviolet;
+    padding-top: 20px;
+    text-shadow: 3px 3px 3px #e1d025;
+}
+.explain #rule{
+    width:450px;
+    height:210px;
+    float: left;
+    border:1px solid #dddddd;
+}
+ol li{
+    font-family: 楷体;
+    font-size: 18px;
+    margin-left: 35px;
+}
+/*游戏规则区end*/
