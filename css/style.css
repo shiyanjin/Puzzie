@@ -2,7 +2,7 @@
     margin:0;
     padding:0;
 }
-body{
+html,body{
     width:100%;
     height: 100%;
     background: -webkit-linear-gradient(#eefff6, #4d8689);
@@ -12,8 +12,8 @@ body{
 /*游戏区start*/
 .wapper{
     width:500px;
-    height:300px;
-    margin:10px auto;
+    /*height:300px;*/
+    margin:30px auto;
     border:1px solid #dddddd;
 }
 #box{
@@ -79,7 +79,7 @@ span{
 .explain{
     width:560px;
     height:250px;
-    margin:10px auto;
+    margin:30px auto;
 }
 .explain #title{
     width:100px;
